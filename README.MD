@@ -19,8 +19,8 @@ curl -X POST \
 "https://translation.googleapis.com/v3/projects/cliu201/locations/us-central1:batchTranslateDocument"
 ```
 
-```
-# get the operation id from the output
+get the operation id from the output
+```json
 {
   "name": "projects/148965607901/locations/us-central1/operations/20220421-22281650605302-625e066e-0000-29a2-9043-089e0820de50",
   "metadata": {
