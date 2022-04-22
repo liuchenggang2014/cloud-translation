@@ -1,0 +1,16 @@
+{
+    "source_language_code": "zh",
+    "target_language_codes": ["en"],
+    "input_configs": [
+      {
+        "gcsSource": {
+          "inputUri": "gs://cliu201-us/input.pdf"
+        }
+      }
+    ],
+    "output_config": {
+      "gcsDestination": {
+        "outputUriPrefix": "gs://cliu201-us/output/"
+      }
+    }
+  }
