@@ -30,7 +30,7 @@ curl -X POST \
 }
 ```
 
-#### get the operation status [reference doc](https://cloud.google.com/translate/docs/advanced/long-running-operation)
+#### 4. get the operation status [reference doc](https://cloud.google.com/translate/docs/advanced/long-running-operation)
 ```
 curl -X GET \
 -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
